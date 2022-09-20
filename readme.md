@@ -28,6 +28,9 @@ number = `a`
 ![img](error.png)
 
 
+![6dbffee9-a7cb-4e86-8589-da54044a48bc](https://user-images.githubusercontent.com/81258778/191279093-dbcbcf2f-7d32-42c1-96e8-c2d7b623b016.jpg)
+
+
 
 ## typescript start
 
@@ -45,6 +48,8 @@ npm install -g typescript
 #### the next step is to write the following codes in the file you created and then open the terminal
 
 ```js
+ //greeter.ts
+
 function greeter(name) {
   console.log(`hello ${name}`)
 }
@@ -59,4 +64,15 @@ console.log('helloworld')
 
 ```js
 tsc.cmd`filename`.ts
+```
+
+```js
+// greeter.js
+function greeter(name) {
+    console.log("hello ".concat(name));
+}
+var user = 'Ayhan';
+greeter(user);
+console.log('helloworld');
+
 ```
